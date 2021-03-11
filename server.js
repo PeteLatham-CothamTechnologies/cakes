@@ -109,7 +109,7 @@ cakeServer.get('/cakes/:id', (req, res) => {
 
 const port = 4000;
 cakeServer.listen(process.env.PORT || port, () => {
-  console.log(`Thank you. cakeServer is listening at port ${port}`);
+  console.log(`Thank you. cakeServer is listening at port ${process.env.PORT || port}`);
 });
 
 // Let's see what we've got
