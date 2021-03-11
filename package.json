@@ -1,0 +1,17 @@
+{
+  "name": "cakes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "diskdb": "^0.1.17",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*"
+    ]
+  }
+}
