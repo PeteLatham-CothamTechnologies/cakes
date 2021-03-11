@@ -108,7 +108,7 @@ cakeServer.get('/cakes/:id', (req, res) => {
 });
 
 const port = 4000;
-cakeServer.listen(port, () => {
+cakeServer.listen(process.env.PORT || port, () => {
   console.log(`Thank you. cakeServer is listening at port ${port}`);
 });
 
